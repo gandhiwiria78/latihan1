@@ -2,6 +2,7 @@ import 'package:introduction_screen/introduction_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'login.dart';
+import 'List.dart';
 
 class IntroSlide extends StatefulWidget {
   @override
@@ -41,7 +42,7 @@ class _IntroSlideState extends State<IntroSlide> {
       onDone: (){
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => Login()),
+            MaterialPageRoute(builder: (context) => ListData()),
           );
       },
     );

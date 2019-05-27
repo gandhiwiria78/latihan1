@@ -35,4 +35,14 @@ mixin _$Counter on _Counter, Store {
       _$_CounterActionController.endAction(_$actionInfo);
     }
   }
+
+  @override
+  void decrement() {
+    final _$actionInfo = _$_CounterActionController.startAction();
+    try {
+      return super.decrement();
+    } finally {
+      _$_CounterActionController.endAction(_$actionInfo);
+    }
+  }
 }
