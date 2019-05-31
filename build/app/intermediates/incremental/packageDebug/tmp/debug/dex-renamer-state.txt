@@ -1,4 +1,4 @@
-#Fri May 31 14:51:57 WIB 2019
+#Fri May 31 21:16:45 WIB 2019
 base.0=/Users/mac/Flutter/latihan1/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

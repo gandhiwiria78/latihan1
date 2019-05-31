@@ -4,7 +4,7 @@
             "outputFile": "/Users/mac/Flutter/latihan1/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/mac/Flutter/latihan1/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/mac/Flutter/latihan1/Android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

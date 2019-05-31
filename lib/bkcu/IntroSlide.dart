@@ -56,7 +56,7 @@ class _IntroSlideState extends State<IntroSlide> {
       onDone: (){
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => ListData()),
+            MaterialPageRoute(builder: (context) => ListDatas()),
           );
       },
     );

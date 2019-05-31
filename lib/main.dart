@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:latihan1/bkcu/IntroSlide.dart';
-
+import 'package:latihan1/bkcu/IntroSlide.dart' as prefix0;
 // import 'home_page.dart';
 // import 'traveloka_clone/Home.dart';
 // import 'bkcu/splash.dart';
-
 import 'bkcu/IntroSlide.dart' ;
 import 'bkcu/List.dart';
 
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Latihan',
       theme: new ThemeData.fallback(),
-      home:  new ListData() // new Home(),
+      home:  new ListDatas() // new Home(),
     );
   }
 }

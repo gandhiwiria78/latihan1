@@ -3,12 +3,12 @@ import 'Mobx.dart';
 import 'Login.dart';
 import 'IntroSlide.dart';
 
-class ListData extends StatefulWidget {
+class ListDatas extends StatefulWidget {
   @override
   _ListDataState createState() => _ListDataState();
 }
 
-class _ListDataState extends State<ListData> {
+class _ListDataState extends State<ListDatas> {
 
   List userdetails = [
     {
